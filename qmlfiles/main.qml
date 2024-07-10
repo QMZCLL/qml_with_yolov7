@@ -6,10 +6,10 @@ ApplicationWindow {
     id: mainWindow
     visible:true
     title: "基于YOLOv7的人流量检测系统"
-    minimumWidth: 1560
-    maximumWidth: 1920
-    minimumHeight: 960
-    maximumHeight: 1080
+    minimumWidth: 1200
+    maximumWidth: 1400
+    minimumHeight: 800
+    maximumHeight: 1200
     // width:1920
     // height:1080
     StackView {
@@ -17,7 +17,7 @@ ApplicationWindow {
         anchors.fill: parent
         initialItem: page2 //设置初始页面
         Component.onCompleted: {
-            stackView.push(page1.createObject(stackView)) //可以在这里添加初始化页面
+            stackView.push(page2.createObject(stackView)) //可以在这里添加初始化页面
         }
     }
     Component {

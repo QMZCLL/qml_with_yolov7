@@ -618,7 +618,7 @@ Page {
                         height:35
                         anchors.right:parent.right
                         font.pointSize: 15
-                        model: ["yolov7.pt", "yolov7-tiny.pt"]
+                        model: ["yolov7.pt", "yolov7-tiny.pt","yolov7x.pt"]
                         currentIndex: 0
                         background: Rectangle {
                             color: "#e6e6ff"

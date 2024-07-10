@@ -249,7 +249,7 @@ class SetParameter(QObject):
         track_buffer = params['track_buffer']
         match_thresh = params['match_thresh']
         val =[weight_path,threshold,device,track_thresh,track_buffer,match_thresh]
-        all_=[["yolov7.pt", "yolov7-tiny.pt", "yolov7-w6.pt"],
+        all_=[["yolov7.pt", "yolov7-tiny.pt", "yolov7x.pt"],
         [0.2,0.3,0.4,0.5,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95],
         [0,1],
         [0.5,0.6,0.65,0.7,0.75,0.8],
